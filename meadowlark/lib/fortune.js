@@ -7,6 +7,6 @@ const fortunes = [
 ];
 
 exports.getFortune = () => {
-    const idx = fortunes[Math.floor(Math.random() * fortunes.length)];
+    const idx = Math.floor(Math.random() * fortunes.length);
     return fortunes[idx];
 };

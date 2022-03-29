@@ -1,0 +1,19 @@
+{
+    "name": "http-message",
+    "version": "1.0.0",
+    "description": "",
+    "main": "echo-headers.js",
+    "scripts": {
+        "start": "node http-message.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.2",
+        "cat-names": "^2.0.0",
+        "cookie-parser": "^1.4.6",
+        "express": "^4.17.3",
+        "express-handlebars": "^3.1.0",
+        "express-session": "^1.17.2"
+    }
+}
